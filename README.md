@@ -8,7 +8,7 @@ This portfolio showcases my projects, technical skills, internships, certificati
 
 ## 🚀 Live Demo
 
-👉 https://your-portfolio-link.com
+👉 https://arjit-sasan-portfolio.netlify.app/
 
 ---
 
