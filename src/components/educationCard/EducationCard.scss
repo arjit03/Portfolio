@@ -5,7 +5,7 @@
   flex-direction: row;
 }
 
-.education-card:hover+.education-card-border {
+.education-card:hover + .education-card-border {
   border-color: $educationCardBorder;
   width: 100%;
   -webkit-transition: width 0.6s ease-in-out;
@@ -75,7 +75,7 @@
   margin-bottom: 0.5rem;
 }
 
-.education-text-bullets>ul {
+.education-text-bullets > ul {
   margin-top: 0.5rem;
 }
 
@@ -138,7 +138,7 @@
     margin-right: 0;
   }
 
-  .education-text-bullets>ul {
+  .education-text-bullets > ul {
     max-width: 80%;
     margin: auto;
   }

@@ -1,6 +1,6 @@
 import React from "react";
 import "./SoftwareSkill.scss";
-import { skillsSection } from "../../portfolio";
+import {skillsSection} from "../../portfolio";
 
 export default function SoftwareSkill() {
   return (
@@ -18,7 +18,7 @@ export default function SoftwareSkill() {
                   <img
                     src={skills.imageSrc}
                     alt={skills.skillName}
-                    style={{ width: "50px", height: "50px" }}
+                    style={{width: "50px", height: "50px"}}
                   />
                 ) : (
                   <i className={skills.fontAwesomeClassname}></i>

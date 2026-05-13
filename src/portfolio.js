@@ -49,14 +49,21 @@ const socialMediaLinks = {
 
 const skillsSection = {
   title: "What I do",
-  subTitle: "I create modern, responsive websites and web apps with clean UI and solid functionality.",
+  subTitle:
+    "I create modern, responsive websites and web apps with clean UI and solid functionality.",
   skills: [
     emoji("⚡ Build modern, responsive, and user-friendly web interfaces"),
-    emoji("⚡ Develop full-stack web applications using React, Next.js, Express.js, and modern JavaScript"),
-    emoji("⚡ Integrate APIs and third-party services for real-world functionality"),
+    emoji(
+      "⚡ Develop full-stack web applications using React, Next.js, Express.js, and modern JavaScript"
+    ),
+    emoji(
+      "⚡ Integrate APIs and third-party services for real-world functionality"
+    ),
     emoji("⚡ Create clean and responsive UI designs using Tailwind CSS"),
     emoji("⚡ Build reusable and scalable frontend components"),
-    emoji("⚡ Develop RESTful APIs and backend functionality using Node.js and Express.js"),
+    emoji(
+      "⚡ Develop RESTful APIs and backend functionality using Node.js and Express.js"
+    )
   ],
 
   /* Make Sure to include correct Font Awesome Classname to view your icon
@@ -87,16 +94,19 @@ https://fontawesome.com/icons?d=gallery */
     {
       skillName: "Next.js",
       imageSrc: require("./assets/images/nextjs.webp")
-    }, {
+    },
+    {
       skillName: "Tailwind CSS",
       imageSrc: require("./assets/images/tailwindcss.webp")
-    }, {
+    },
+    {
       skillName: "npm",
       fontAwesomeClassname: "fab fa-npm"
-    }, {
+    },
+    {
       skillName: "MongoDB",
       imageSrc: require("./assets/images/MongoDB.png")
-    },
+    }
   ],
   display: true // Set false to hide this section, defaults to true
 };
@@ -111,7 +121,7 @@ const educationInfo = {
       logo: require("./assets/images/logo.png"),
       subHeader: "Master of Computer Applications",
       duration: "2024 - 2026",
-      desc: "CGPA - 8.05",
+      desc: "CGPA - 8.05"
       // descBullets: [
       //   "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
       //   "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
@@ -122,7 +132,7 @@ const educationInfo = {
       logo: require("./assets/images/logo.png"),
       subHeader: "Bachelor of Computer Applications",
       duration: "2021 - 2024",
-      desc: "CGPA - 7.89",
+      desc: "CGPA - 7.89"
       // descBullets: ["Lorem ipsum dolor sit amet, consectetur adipiscing elit"]
     }
   ]
@@ -164,8 +174,7 @@ const workExperiences = {
         "Developed reusable UI components using React.js",
         "Improved application performance and user experience"
       ]
-    }
-    ,
+    },
     {
       role: "Web Developer Intern",
       company: "Techonical Infotech Pvt Ltd",
@@ -177,8 +186,6 @@ const workExperiences = {
         "Integrated frontend components with backend logic"
       ]
     }
-    ,
-
   ]
 };
 
@@ -260,7 +267,7 @@ const bigProjects = {
           url: "https://github.com/arjit03/FloraVision"
         }
       ]
-    },
+    }
   ],
   display: true // Set false to hide this section, defaults to true
 };
@@ -336,7 +343,6 @@ const talkSection = {
   // subtitle: emoji(
   //   "I LOVE TO SHARE MY LIMITED KNOWLEDGE AND GET A SPEAKER BADGE 😅"
   // ),
-
   // talks: [
   //   {
   //     title: "Build Actions For Google Assistant",
@@ -353,7 +359,6 @@ const talkSection = {
 const podcastSection = {
   // title: emoji("Podcast 🎙️"),
   // subtitle: "I LOVE TO TALK ABOUT MYSELF AND TECHNOLOGY",
-
   // // Please Provide with Your Podcast embeded Link
   // podcast: [
   //   "https://anchor.fm/codevcast/embed/episodes/DevStory---Saad-Pasta-from-Karachi--Pakistan-e9givv/a-a15itvo"
