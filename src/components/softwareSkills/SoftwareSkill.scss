@@ -1,0 +1,50 @@
+@import "../../_globalColor";
+
+.dev-icons {
+  padding-left: 0;
+  list-style: none;
+  font-size: 3rem;
+  margin-bottom: 0px;
+  margin-top: 0px;
+  text-align: center;
+}
+
+.software-skill-inline {
+  display: inline-block;
+  margin-right: 20px;
+  margin-bottom: 20px;
+}
+
+.software-skill-inline>i {
+  color: $subTitle;
+}
+
+.software-skill-inline>i:hover {
+  color: $skillsColor;
+}
+
+/* Styles for custom images to match Font Awesome icons */
+.software-skill-inline>img {
+  width: 48px;
+  height: 48px;
+  filter: brightness(0) saturate(100%) invert(62%) sepia(8%) saturate(366%) hue-rotate(169deg) brightness(91%) contrast(86%);
+  transition: filter 0.3s ease;
+}
+
+.software-skill-inline>img:hover {
+  filter: brightness(0) saturate(100%) invert(41%) sepia(85%) saturate(2458%) hue-rotate(238deg) brightness(94%) contrast(90%);
+}
+
+.software-skill-inline>p {
+  color: $subTitle;
+  font-size: 10px;
+}
+
+.software-skill-inline>i:hover~p {
+  color: $skillsColor;
+}
+
+/* Text color change when image is hovered */
+.software-skill-inline>img:hover~p {
+  color: $skillsColor;
+}
